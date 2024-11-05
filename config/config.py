@@ -68,7 +68,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1924774929").split())
+    map(int, getenv("OWNER_ID", "1303275036").split())
 )  # Input type must be interger
 
 
@@ -89,7 +89,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Vivekkumar0708/freind", # Don't change it 
+    "https://github.com/atrinatrin/ATRIN", # Don't change it 
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -102,10 +102,10 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/TM_HERAT"
+    "SUPPORT_CHANNEL", "https://t.me/rainbow_tm"
 )  # Example:- https://t.me/TheTeamVivek
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TEMHERAT"
+    "SUPPORT_GROUP", "https://t.me/ATRIN_MUSIC_TM"
 )  # Example:- https://t.me/TheTeamVk
 
 
@@ -204,7 +204,7 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg",
+    "https://files.catbox.moe/vh8n73.jpg",
 )
 
 PING_IMG_URL = getenv(
