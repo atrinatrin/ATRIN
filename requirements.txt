@@ -10,7 +10,7 @@ heroku3
 httpx[http2]
 lyricsgenius
 motor
-pillow==9.5.0
+pillow==10.3.0
 psutil
 pytube
 pykeyboard
@@ -25,7 +25,7 @@ tgcrypto
 urllib3
 uvloop
 flask
-gunicorn==20.1.0
+gunicorn==23.0.0
 git+https://github.com/KurimuzonAkuma/pyrogram@dev
 git+https://github.com/yt-dlp/yt-dlp
 git+https://github.com/alexmercerind/youtube-search-python@main
